@@ -23,13 +23,13 @@ This project implements a Gobang (Five in a Row) game with an AI opponent using 
 1. Clone the repository | 克隆仓库
 
     ```bash
-    git clone https://github.com/yourusername/gobang-ai.git
+    git clone https://github.com/huaji1hao/AI_Gobang_Game.git
     ```
 
 2. Install the required dependencies | 安装所需依赖
 
     ```bash
-    pip install -r requirements.txt
+    pip install pygame
     ```
 
 ## Usage | 用法
