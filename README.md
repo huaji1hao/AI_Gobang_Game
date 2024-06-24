@@ -73,3 +73,7 @@ play_game(goBang(), dict(X=player(limited_alphabeta_search), O=player(limited_mi
 - `search.py`: Implements the minimax and alpha-beta pruning algorithms for the AI.
 - `play_game.py`: Provides functions to play the game with different players (human or AI).
 - `main.py`: The entry point of the application to start the game.
+
+## Showcase
+
+<img src="https://eumcm.com/file/59f01c88a0176af796468.png" width="560" height="560" />

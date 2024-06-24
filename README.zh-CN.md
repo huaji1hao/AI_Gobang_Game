@@ -65,8 +65,6 @@ play_game(goBang(), dict(X=player(limited_alphabeta_search), O=player(limited_al
 play_game(goBang(), dict(X=player(limited_alphabeta_search), O=player(limited_minimax_search)), verbose=False).utility
 ```
 
-
-
 ## 文件结构
 
 - `visualization.py`: 包含使用Pygame可视化五子棋棋盘和棋子的代码。
@@ -75,3 +73,7 @@ play_game(goBang(), dict(X=player(limited_alphabeta_search), O=player(limited_mi
 - `search.py`: 实现了用于AI的极小化极大算法和alpha-beta剪枝算法。
 - `play_game.py`: 提供了使用不同玩家（人类或AI）进行游戏的函数。
 - `main.py`: 应用程序的入口点，用于启动游戏。
+
+## 运行展示
+
+<img src="https://eumcm.com/file/59f01c88a0176af796468.png" width="560" height="560" />

@@ -1,9 +1,8 @@
 from game import *
 from search import *
 import random
-import main
 
-def play_game(game, strategies: dict, verbose=False):
+def play_game(game, strategies: dict, restart_callback, verbose=False):
     """
     进行一个回合制游戏。`strategies` 是一个 {player_name: function} 的字典，
     其中 function(state, game) 用于获取玩家的移动。
@@ -28,7 +27,7 @@ def play_game(game, strategies: dict, verbose=False):
     # Exit or restart the GUI
     again = visualize.draw_end_screen(1 if game.utility(state, 'X') > 0 else 2 if game.utility(state, 'X') < 0 else 0)
     if again == 0:
-        main()
+        restart_callback()
     else:
         pygame.quit()
         sys.exit()
